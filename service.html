@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+    <link rel="stylesheet" href="service.css">
+   <link rel="stylesheet" href="../shared.css">
+
+  
+</head>
+
+<body>
+   
+    <header>
+        <div>
+            <nav class="main_nav">
+                <ul>
+                    <h1>Melvin</h1>
+                </ul>
+               <div class="mobile_nav">
+                <div class="hamburger" onclick="">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+                </div>
+                </div>
+                <div >
+                <nav class="menu">
+                    <div class="quit-b-t-n" onclick="">return</div>
+                <a href="../index.html" class="nav_edit destop-nav-edit">home</a>
+                <a href="service.html" class="nav_edit destop-nav-edit">services</a>
+                <a href="../skills/skills.html" class="nav_edit destop-nav-edit">skills</a>
+               </nav>
+             </div>
+            </nav>
+        </div>
+        </div>
+    </header>
+    <div>
+        <h1 class="main-head">
+            UNLEASH MY FRONTEND FURY
+        </h1>
+        <p class="intro-edit">you want a website that crushes the competition?<br>
+         i'm the strongest frontend developer in town, <br>
+         and i'll make it happen.</p>
+     </div>
+     <div>
+        <h1 class="service-main-style">SERVICES</h1>
+        <P class="service-info-style">* frontend developer proficient in HTML, CSS, javascript.
+          _my techniques will bring your design to life.</P>
+         <p  class="service-info-style"> * responsive web design - your site will adapt and dominate
+            any screen size. </p>
+            <p class="service-info-style">* mobile first development - i'll make sure your site is as 
+                agile as i am. </p>
+                <p  class="service-info-style">* web Aplication development - complex application
+                    are child's play for me.
+                </p>
+                <div>
+                    <h1 class="image-title">MASTERMIND of the DIGITAL  <br> world >>>>>></h1>
+                    <div class="service-image"></div>
+                </div>
+     </div>
+</body>
+<script>
+    
+ document.querySelector('.hamburger').addEventListener('click', function(){
+    document.querySelector ('.menu').style.display = 'block';
+ })
+ 
+
+document.querySelector('.quit-b-t-n').addEventListener('click', function(){
+    document.querySelector ('.menu').style.display = 'none';
+   
+})
+
+
+
+
+</script>
+</html>

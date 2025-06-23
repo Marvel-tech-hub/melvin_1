@@ -1,0 +1,204 @@
+html{
+    background-color: black;
+    color: rgb(235, 13, 13);
+}
+
+.main_h1_styled{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+#seperate-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: red;
+    position: fixed;
+    left: 5rem;
+ }
+ #menu-seperate{
+    display: none;
+   background-color: rgb(12, 2, 39);
+    top: 0.3125rem;
+    width: 50vh;
+    height: 100vh;
+    z-index: 10;
+    position: absolute;
+   left: -6em;
+    text-align: center;
+}
+
+
+.marvel_image{
+    width: 35.25rem;
+    height: 50.25rem;
+    background-image: url(IMG-20240930-WA0068~2.jpg);
+    border-radius: 40%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    z-index: -10;
+    left: -10%;
+    top: 5.375rem;
+}
+    
+    .title-edit{
+        margin-top: 0.4rem;
+        position: relative;
+        left: 0.5rem;
+        top: -15rem;
+        z-index: -1;
+        font-size: 1.6rem;
+        font-family: cursive;
+        color: rgb(39, 163, 39);
+        
+        
+    }
+    .tittle-me h1{
+        color: red;
+    }
+    
+    
+    .whatsapp--link{
+        position: relative;
+        background-size: cover;
+        z-index: -3;
+        left: 50%;
+        top: 0.2rem;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 30%;
+        margin-right: 4rem;
+        display: block;
+        padding-bottom: 1rem;
+        
+    }
+    .main_H1{
+        display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-block: -35px;
+       margin-top: 7px;
+       position: relative;
+       left: 0.2rem;
+       color: white;
+       z-index:-2;
+       padding-left: 1.5rem;
+       padding-right: 1.5rem;
+       font-size: 1.rem;
+       
+    }    
+    .main_marvel{
+        position: relative;
+            color: red;
+            bottom : 42%;
+            left: 0.3rem;
+            
+        }
+        .main_intro{
+            color: white;
+            z-index: -1;
+            position: relative;
+            top: -13.3rem;
+            left: 1rem;
+            font-size: 1.3rem;
+        }
+    
+    /*destop*/
+@media ( min-width: 1025px) and (max-width: 1200px){
+    .whatsapp--link{
+        position: relative;
+        background-size: cover;
+        top: 2.3rem;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 30%;
+        display: block;
+    }
+
+    
+
+
+
+.main_H1{
+    display: flex;
+   margin-block: -35px;
+   margin-top: 7px;
+   position: relative;
+   left: 2rem;
+   top: 4rem;
+   color: white;
+   z-index: 2;
+   font-size: 15px;
+}
+.main_marvel{
+    left: 0.6rem;
+}
+.marvel_image{
+    width: 30.2rem;
+    height: 40.2rem;
+    background-image: url(IMG-20240930-WA0068~2.jpg);
+    border-radius: 50%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    top: -7rem;
+    left: 0.3rem;
+    z-index: -1;
+}
+.main_intro{
+    color: white;
+    margin-top: 40px;
+    z-index: 2;
+    position: relative;
+    top: -30rem;
+    left: -7%;
+    font-size: 17px;
+}
+
+.tittle-me h1{
+    color: red;
+    
+}
+.title-edit{
+    margin-top: 0.4rem;
+    position: relative;
+    left: 0%;
+    bottom: 73rem;
+    z-index: -1;
+    font-size: 1.6rem;
+    font-family: cursive;
+    color: rgb(39, 163, 39);
+    margin-top: 0pc;
+    
+}
+
+}
+
+
+@media ( min-width: 768px) and (max-width: 1024px){
+    
+    .title-edit{
+        margin-top: 7px;
+        position: relative;
+        left: 62%;
+        bottom: 640px;
+        z-index: 2;
+        font-size: 30px;
+        font-family: cursive;
+        color: rgb(39, 163, 39);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

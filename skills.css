@@ -1,0 +1,349 @@
+
+.skills-main-head{
+    color:red;
+    position: relative;
+    top: 2rem;
+    left: 20%;
+    z-index: -1;
+}
+.skills-main-head-two{
+    color:rgb(21, 221, 48);
+    position: relative;
+    top: 20px;
+    left: 20%;
+    margin-top: -10px;
+    z-index: -1;
+}
+.one-image{
+    background: url(html--image1.jpg);
+    background-size: cover;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    top: 10px;
+    z-index: -1;
+}
+.one-image-info{
+    position: relative;
+    left: 2.2rem;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    z-index: -1;
+}
+.two-image{
+    background: url(file-7XSc2S6TE8uGttutJmkHuZ\ \(1\).webp);
+    position: relative;
+    background-size: cover;
+    height: 9rem;
+    width: 13rem;
+    border-radius: 10%;
+    top: -11rem;
+    left: 27%;
+    z-index: -1;
+}
+.two-image-info{
+    position: relative;
+    left: 38%;
+    top: -170px;
+    color: white;
+    font-size: 20px;
+    margin-top: 0px;
+    z-index: -1;
+}
+.three-image{
+    background: url(IMG-20241224-WA0127.jpg);
+    background-size: cover;
+    position: relative;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    top: -23rem;
+    left: 70%;
+    z-index: -1;
+}
+.three-image-info{
+    position: relative;
+    left: 83%;
+    top: -24rem;
+    color: white;
+    font-size: 20px;
+    margin-top: 0px;
+    z-index: -1;
+}
+.main-info{
+    color: rgb(230, 207, 207);
+    position: relative;
+    bottom: 20rem;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    z-index: -1;
+}
+
+.work-rate{
+    color: rgb(247, 252, 251);
+    position: relative;
+    top: -12rem;
+    bottom: 270px;
+    font-size: 1.2rem;
+    z-index: -1;
+}
+.work-rate-image{
+    background: url(file-JkjZGSbsiG6iWHAHibFBFf~5\ -\ Copy.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 16rem;
+    width: 20rem;
+    border-radius: 3%;
+    bottom: 375px;
+    left: 21%;
+    z-index: -1;
+}
+.test-me{
+    color:white;
+    position: relative;
+    bottom: 375px;
+    left: 5%;
+    z-index: -1;
+}
+.test-me-two{
+    color: red;
+}
+
+
+@media ( min-width: 800px) and (max-width: 1000px){
+
+    .one-image{
+        background: url(html--image1.jpg);
+        background-size: cover;
+        height: 13rem;
+        width: 13rem;
+        border-radius: 50%;
+        top: 10px;
+        z-index: -1;
+    }
+    .one-image-info{
+        position: relative;
+        left: 4rem;
+        color: white;
+        font-size: 2rem;
+        margin-top: 10px;
+        z-index: -1;
+    }
+    .two-image{
+        background: url(file-7XSc2S6TE8uGttutJmkHuZ\ \(1\).webp);
+        position: relative;
+        background-size: cover;
+        height: 14rem;
+        width: 23rem;
+        border-radius: 10%;
+        top: -19rem;
+        left: 27%;
+        z-index: -1;
+    }
+    .two-image-info{
+        position: relative;
+        left: 40%;
+        top: -18rem;
+        color: white;
+        font-size: 2rem;
+        margin-top: 0px;
+        z-index: -1;
+    }
+    .three-image{
+        background: url(IMG-20241224-WA0127.jpg);
+        background-size: cover;
+        position: relative;
+        height: 15rem;
+        width: 15rem;
+        border-radius: 50%;
+        top: -40rem;
+        left: 75%;
+        z-index: -1;
+    }
+    .three-image-info{
+        position: relative;
+        left: 86%;
+        top: -41rem;
+        color: white;
+        font-size: 2rem;
+        margin-top: 0px;
+        z-index: -1;
+    }
+    
+    
+    .main-info{
+        color: rgb(230, 207, 207);
+        position: relative;
+        bottom: 40rem;
+        margin-top: -5px;
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+        z-index: -1;
+    }
+    .work-rate{
+        color: rgb(247, 252, 251);
+        position: relative;
+        top: -34rem;
+        bottom: 270px;
+        font-size: 1.2rem;
+        z-index: -1;
+    }
+    .work-rate-image{
+        background: url(file-JkjZGSbsiG6iWHAHibFBFf~5\ -\ Copy.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        height: 16rem;
+        width: 20rem;
+        border-radius: 3%;
+        bottom: 45rem;
+        left: 12%;
+        z-index: -1;
+    }
+    .test-me{
+        color:white;
+        position: relative;
+        bottom: 40rem;
+        left: 4%;
+        z-index: -1;
+    }
+    .test-me-two{
+        color: red;
+    }
+    
+    
+    
+
+
+
+
+
+}
+
+
+
+
+
+
+@media ( min-width: 1000px) and (max-width: 2300px){
+
+    .skills-main-head{
+        color:red;
+        position: relative;
+        top: 3rem;
+        left: 10%;
+        z-index: -1;
+    }
+    .skills-main-head-two{
+        color:rgb(21, 221, 48);
+        position: relative;
+        top: 3rem;
+        left: 28%;
+        margin-top: -10px;
+        z-index: -1;
+    }
+    .one-image{
+        background: url(html--image1.jpg);
+        background-size: cover;
+        height: 15rem;
+        width: 15rem;
+        border-radius: 50%;
+        top: 10px;
+        z-index: -1;
+    }
+    .one-image-info{
+        position: relative;
+        left: 4.8rem;
+        color: white;
+        font-size: 2rem;
+        margin-top: 10px;
+        z-index: -1;
+    }
+    .two-image{
+        background: url(file-7XSc2S6TE8uGttutJmkHuZ\ \(1\).webp);
+        position: relative;
+        background-size: cover;
+        height: 15rem;
+        width: 24rem;
+        border-radius: 10%;
+        top: -19rem;
+        left: 27%;
+        z-index: -1;
+    }
+    .two-image-info{
+        position: relative;
+        left: 35%;
+        top: -18rem;
+        color: white;
+        font-size: 2rem;
+        margin-top: 0px;
+        z-index: -1;
+    }
+    .three-image{
+        background: url(IMG-20241224-WA0127.jpg);
+        background-size: cover;
+        position: relative;
+        height: 20rem;
+        width: 20rem;
+        border-radius: 50%;
+        top: -42rem;
+        left: 70%;
+        z-index: -1;
+    }
+    .three-image-info{
+        position: relative;
+        left: 80%;
+        top: -43rem;
+        color: white;
+        font-size: 2rem;
+        margin-top: 0px;
+        z-index: -1;
+    }
+    .main-info{
+        color: rgb(230, 207, 207);
+        position: relative;
+        bottom: 40rem;
+        margin-top: -5px;
+        margin-bottom: 10px;
+        font-size: 2rem;
+        z-index: -1;
+    }
+    
+    .work-rate{
+        color: rgb(247, 252, 251);
+        position: relative;
+        top: -34rem;
+        bottom: 270px;
+        font-size: 1.2rem;
+        z-index: -1;
+    }
+    .work-rate-image{
+        background: url(file-JkjZGSbsiG6iWHAHibFBFf~5\ -\ Copy.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        height: 16rem;
+        width: 20rem;
+        border-radius: 3%;
+        bottom: 45rem;
+        left: 12%;
+        z-index: -1;
+    }
+    .test-me{
+        color:white;
+        position: relative;
+        bottom: 55rem;
+        left: 37%;
+        z-index: -1;
+    }
+    .test-me-two{
+        color: red;
+    }
+    
+
+
+
+}
